@@ -1208,9 +1208,9 @@ class LeasedSpot(Spot):
         robot_state_transforms_snapshot = None,
     ):
         """
-        Sets the pose of the end effector i.e. sets the end-effector's position
+        Sets the pose of the end effector (sets the end-effector's position
         and rotation in euclidean space relative to the robot's current
-        position.
+        position).
 
         The position is in meters in the given frame.
 

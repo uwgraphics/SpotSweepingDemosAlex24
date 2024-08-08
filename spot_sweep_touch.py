@@ -4,8 +4,12 @@ from spot_api import Spot
 
 async def main():
     """
-    Makes Spot sweeps a horizontal area right in front of him and then takes a step to
-    sweep the next area.
+    Makes Spot sweep an infinitely-long corridor in front of him using a
+    serpentine scan pattern. The number of times that Spot scans a line
+    in front of him and then moves forward is currently limited, but could
+    easily be made into an infinite loop.
+
+    The gripper makes contact with the ground for the duration of the scan.
     """
 
     # create the Spot robot
