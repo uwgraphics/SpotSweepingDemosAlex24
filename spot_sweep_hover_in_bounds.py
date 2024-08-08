@@ -18,7 +18,7 @@ def parse_args():
     )
 
     # Add arguments
-    parser.add_argument('-h', '--height', type=float, default=0.2,  help="How far off the ground to keep Spot's gripper.")
+    parser.add_argument('--height', type=float, default=0.2,  help="How far off the ground to keep Spot's gripper.")
     parser.add_argument('--f1', type=int, default=10,               help="The number of the top-left fiducial.")
     parser.add_argument('--f2', type=int, default=9 ,               help="The number of the bottom-right fiducial.")
     parser.add_argument('-s', '--scanner_length', type=float, default=0.2, help="How long the scan area is. Determines row spacing of S-shaped scan.")
@@ -58,7 +58,7 @@ async def main():
 
     args = parse_args()
     scan_height: Num = args.height
-    scan_area_len: Num = args.scanner_len
+    scan_area_len: Num = args.scanner_length
     f1_num: int =  args.f1
     f2_num: int =  args.f2
     scan_velocity: Num  = args.velocity
