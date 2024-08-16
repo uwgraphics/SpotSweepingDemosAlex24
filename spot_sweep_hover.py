@@ -1,3 +1,6 @@
+"""
+Small Demo for Spot.
+"""
 import asyncio
 from spot_api import Spot
 
@@ -63,7 +66,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-

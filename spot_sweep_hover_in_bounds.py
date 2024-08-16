@@ -1,11 +1,13 @@
+"""
+Small Demo for Spot.
+"""
 import argparse
 import asyncio
-from itertools import chain
 import time
 from typing import Generator, Literal
+from bosdyn.client.frame_helpers import ODOM_FRAME_NAME
+from bosdyn.client.math_helpers import Quat, SE3Pose, math
 from spot_api import Spot
-from bosdyn.client.frame_helpers import ODOM_FRAME_NAME, GRAV_ALIGNED_BODY_FRAME_NAME, GROUND_PLANE_FRAME_NAME, get_a_tform_b
-from bosdyn.client.math_helpers import Quat, SE3Pose, Vec3, math
 
 Num = float | int
 

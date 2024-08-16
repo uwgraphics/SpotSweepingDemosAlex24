@@ -16,7 +16,6 @@ import bosdyn.client
 import bosdyn.client.lease
 import bosdyn.client.util
 from google.protobuf import duration_pb2
-from bosdyn.client import math_helpers
 from bosdyn.client.power import PowerClient
 from bosdyn.client.robot_state import RobotStateClient
 from bosdyn.client.world_object import WorldObjectClient
@@ -32,7 +31,7 @@ from bosdyn.client.robot_command import (
 )
 from bosdyn.client.image import ImageClient, build_image_request
 from bosdyn.client.lease import LeaseClient
-from bosdyn.client.math_helpers import Quat, SE3Pose, Vec3, math
+from bosdyn.client.math_helpers import Quat, SE3Pose, math
 from bosdyn.client.frame_helpers import (
     GRAV_ALIGNED_BODY_FRAME_NAME,
     ODOM_FRAME_NAME,

@@ -1,7 +1,9 @@
+"""
+Small Demo for Spot.
+"""
 import asyncio
+from bosdyn.client.frame_helpers import ODOM_FRAME_NAME
 from spot_api import Spot
-from bosdyn.client.math_helpers import SE3Pose
-from bosdyn.client.frame_helpers import ODOM_FRAME_NAME, GRAV_ALIGNED_BODY_FRAME_NAME
 
 async def main():
     """
