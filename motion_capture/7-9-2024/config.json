@@ -1,0 +1,69 @@
+{
+    "Data Rows Per Frame": 4,
+    "GROUND": {
+        "ID": "001",
+        "MARKER": "001"
+    },
+    "Rigid": {
+        "comment": "This is information on the rigid body that we care about. Format of TL: Rigid Body 002:Marker 001",
+        "ID": "002",
+        "MARKER": {
+            "BR": "001",
+            "TR": "003",
+            "TL": "004",
+            "BL": "005"
+        }
+    },
+    "Camera": {
+        "Horizontal FOV": {
+            "value": 56,
+            "unit": "degrees"
+        },
+        "Vertical FOV": {
+            "value": 46,
+            "unit": "degrees"
+        },
+        "Focal Length": {
+            "value": 5.8,
+            "unit": "mm"
+        },
+        "Pixel Dimensions": {
+            "x": {
+                "value": 1280,
+                "unit": "px"
+            },
+            "y": {
+                "value": 1024,
+                "unit": "px"
+            }
+        },
+        "Position": {
+            "x": {
+                "value": 1.94,
+                "unit": "m"
+            },
+            "y": {
+                "value": 2.17,
+                "unit": "m"
+            },
+            "z": {
+                "value": -0.43,
+                "unit": "m"
+            }
+        },
+        "Orientation": {
+            "x": {
+                "value": -95.9,
+                "unit": "degrees"
+            },
+            "y": {
+                "value": 42.38,
+                "unit": "degrees"
+            },
+            "z": {
+                "value": 95.99,
+                "unit": "degrees"
+            }
+        }
+    }
+}

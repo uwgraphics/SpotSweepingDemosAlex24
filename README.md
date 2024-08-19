@@ -39,9 +39,14 @@ At this point, running `python spot_sweep_touch.py` (or running any of the other
  - `./spot_sweep_touch_in_bounds.py` This demo makes Spot look for two fiducials on the ground, assumes that they define a square of ground that must be swept, and makes Spot scan the area in an S-shape.
  - `./spot_sweep_hover.py` This demo works much like `./spot_sweep_touch.py` but makes Spot's hand hover over the area as it scans it rather than put any pressure on the ground.
  - `./spot_sweep_hover_in_bounds.py` This demo works much like `./spot_sweep_touch_in_bounds.py`, but makes Spot's hand hover over the ground it is scanning rather than put constant pressure on it.
+ - `./spot_motion_capture_to_video.py` This demo takes a pre-recorded video of a sweeping motion and colors in the area that Spot sweeps as it sweeps it.
 
 ## Other Files
  - `./spot_api.py` The Spot SDK provides many methods to control Spot, but in a way that is often confusing and untyped. As such, this file consolidates much of the SDK's functionality into a higher-level API that is easier to use and understand.
+
+ ## Example Video
+
+ [Video of Spot Sweeping the Ground](./motion_capture/assets/SpotSweepingExample.gif)
 
 
 
