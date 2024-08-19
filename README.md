@@ -46,7 +46,7 @@ At this point, running `python spot_sweep_touch.py` (or running any of the other
 
  ## Example Video
 
- [Video of Spot Sweeping the Ground](./assets/SpotSweepingExample.gif)
+![Video of Spot Sweeping the Ground](./assets/SpotSweepingExample.gif)
 
 
 
